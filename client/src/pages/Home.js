@@ -1,3 +1,4 @@
+import IconContainer from "../components/IconContainer/IconContainer";
 import InputContainer from "../components/InputContainer/InputContainer";
 import NavHeading from "../components/NavHeading/NavHeading";
 
@@ -6,6 +7,7 @@ function Home() {
     <>
       <NavHeading />
       <InputContainer />
+      <IconContainer />
     </>
   );
 }
