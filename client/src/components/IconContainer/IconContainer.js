@@ -1,5 +1,4 @@
 import Container from "react-bootstrap/Container";
-import logo from "../../assets/asl-icons/icons8-sign-language-a-50.png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Figure from "react-bootstrap/Figure";
@@ -17,7 +16,6 @@ function IconContainer() {
               src={require("../../assets/asl-icons/icons8-sign-language-a-50.png")}
             />
           </Figure>
-          {/* client\src\assets\asl-icons\icons8-sign-language-a-50.png */}
         </Col>
       </Row>
     </Container>
